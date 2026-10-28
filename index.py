@@ -6,21 +6,41 @@
 # else:
 #     print(f"{name} is minor")
 
-numbers = [3, 7, 2, 9, 4, 1, 8]
+# numbers = [3, 7, 2, 9, 4, 1, 8]
 
-sum = 0
-max = numbers[0]
-count_z = 0
+# sum = 0
+# max = numbers[0]
+# count_z = 0
 
-for i in range(len(numbers)):
-   # print(numbers[i])
-    sum += numbers[i]
-    if(max < numbers[i]):
-        max = numbers[i]
+# for i in range(len(numbers)):
+#    # print(numbers[i])
+#     sum += numbers[i]
+#     if(max < numbers[i]):
+#         max = numbers[i]
 
-    if(numbers[i] % 2 == 0):
-        count_z += 1
+#     if(numbers[i] % 2 == 0):
+#         count_z += 1
 
-print(f"Sum = {sum}")
-print(f"Maximum element: {max}")
-print(f"Zuygeri qanak: {count_z}")
+# print(f"Sum = {sum}")
+# print(f"Maximum element: {max}")
+# print(f"Zuygeri qanak: {count_z}")
+
+
+# a = 2
+# b = 55
+# c = 3
+# print(id(a), id(b), id(c))
+
+
+# num = int(input("Write num for check: "))
+
+# for i in range(1, 100, ):
+#     print(i)
+
+# def is_even(num):
+#     if num % 2 == 0:
+#         print(f"{num} is even")
+#     else:
+#         print(f"{num} isn't even") 
+
+# is_even(num)
