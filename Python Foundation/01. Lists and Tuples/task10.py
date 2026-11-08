@@ -1,7 +1,5 @@
-person = ("Anna", 21, "Student")
+numbers = (15, 30, 45, 60)
 
-(name, age, posititon) = person
-
-print(name)
-print(age)
-print(posititon)
+print(numbers[0])
+print(numbers[-1])
+print(len(numbers))
