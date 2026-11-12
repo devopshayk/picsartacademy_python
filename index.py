@@ -48,11 +48,15 @@
 # 
 
 
-a = "Computer"
-b = "Science"
+# a = "Computer"
+# b = "Science"
 
-print(f"{a[1::2]}")
-print(f"{b[-4::-1]}")
-print(a + " " + b)
-print((a[:3] + b[-3:]) * 2)
-print((a[::-2] + b[::2])[2:8])
+# print(f"{a[1::2]}")
+# print(f"{b[-4::-1]}")
+# print(a + " " + b)
+# print((a[:3] + b[-3:]) * 2)
+# print((a[::-2] + b[::2])[2:8])
+
+# di = {}
+
+# print(type(di))
