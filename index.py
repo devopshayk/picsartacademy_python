@@ -60,3 +60,11 @@
 # di = {}
 
 # print(type(di))
+
+# numbers = {1, 2, 2, 3, 3, 3}
+# print(numbers)
+
+# x = 4
+
+# if x > "5":
+#     print(x)
