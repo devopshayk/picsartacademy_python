@@ -1,70 +1,148 @@
-# name = input("Write your name: ")
-# age = int(input("Write your age: "))
-
-# if(age >= 18):
-#     print(f"{name} is adult")
-# else:
-#     print(f"{name} is minor")
-
-# numbers = [3, 7, 2, 9, 4, 1, 8]
-
-# sum = 0
-# max = numbers[0]
-# count_z = 0
-
-# for i in range(len(numbers)):
-#    # print(numbers[i])
-#     sum += numbers[i]
-#     if(max < numbers[i]):
-#         max = numbers[i]
-
-#     if(numbers[i] % 2 == 0):
-#         count_z += 1
-
-# print(f"Sum = {sum}")
-# print(f"Maximum element: {max}")
-# print(f"Zuygeri qanak: {count_z}")
 
 
-# a = 2
-# b = 55
-# c = 3
-# print(id(a), id(b), id(c))
+# parz tiv, calculator, random range game
 
 
-# num = int(input("Write num for check: "))
+# for num in range(2, 101):
+#     prime = True
 
-# for i in range(1, 100, ):
+#     for i in range(2, num):
+#         if num % i == 0:
+#             prime = False
+#             break
+
+#     if prime:
+#         print(num)
+
+#######################
+
+
+# a = float(input("First number: "))
+# op = input("Operation: ")
+# b = float(input("Second number: "))
+
+# if op == "+":
+#     print(a + b)
+# elif op == "-":
+#     print(a - b)
+# elif op == "*":
+#     print(a * b)
+# elif op == "/":
+#     print(a / b)
+
+#######################
+
+# import random
+
+# number = random.randint(0, 10)
+
+# while True:
+#     n = int(input("Write the number: "))
+
+#     if n == number:
+#         print("You found it! ")
+#         break
+
+
+
+######################
+
+
+
+# numbers = [1, 2, 2, 3, 4, 4, 5, 5, 5, 6]
+
+# unique = set(numbers)
+
+# for i in unique:
 #     print(i)
 
-# def is_even(num):
-#     if num % 2 == 0:
-#         print(f"{num} is even")
+
+# text = "apple banana apple orange banana apple"
+# dict1 = {}
+
+# for word in text.split():
+#     if word in dict1:
+#         dict1[word] += 1
 #     else:
-#         print(f"{num} isn't even") 
+#         dict1[word] = 1
 
-# is_even(num)
-
-# 
+# print(dict1)
 
 
-# a = "Computer"
-# b = "Science"
 
-# print(f"{a[1::2]}")
-# print(f"{b[-4::-1]}")
-# print(a + " " + b)
-# print((a[:3] + b[-3:]) * 2)
-# print((a[::-2] + b[::2])[2:8])
+# scores = {
+#     "John": 85,
+#     "Mike": 92,
+#     "Anna": 78,
+#     "David": 95,
+#     "Kate": 88
+# }
 
-# di = {}
+# max = 0
+# max_name = ""
 
-# print(type(di))
+# for key, value in scores.items():
+#     if max < value:
+#         max = value
+#         max_name = key
 
-# numbers = {1, 2, 2, 3, 3, 3}
-# print(numbers)
+# print(max_name, max)
 
-# x = 4
 
-# if x > "5":
-#     print(x)
+# is_prime = True
+
+# n = 8
+
+# for i in range(2, n):
+#     if n % i == 0:
+#         is_prime = False
+#         break
+
+
+# if is_prime:
+#     print(True)
+# else:
+#     print(False)
+
+
+# text = "programming"
+
+# dictionary = {}
+
+# for i in text:
+#     if i in dictionary:
+#         dictionary[i] += 1
+#     else:
+#         dictionary[i] = 1
+
+# print(dictionary)
+
+# students = {
+#     "Hayk": {
+#         "Python": 90,
+#         "Math": 85,
+#         "English": 75
+#     },
+#     "Aram": {
+#         "Python": 80,
+#         "Math": 95,
+#         "English": 90
+#     },
+#     "David": {
+#         "Python": 95,
+#         "Math": 75,
+#         "English": 85
+#     }
+# }
+
+
+# dicti = students.copy()
+# #print(dicti)
+
+# numbers = (1, 2, 3, 4)
+
+# a, *b = numbers
+
+# print(a, b)
+
+
